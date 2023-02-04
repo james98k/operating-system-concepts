@@ -1,0 +1,53 @@
+lecture #1
+link : https://www.youtube.com/watch?v=sLWcsjOjs5U&t=5s
+professor : Shin Hong
+
+
+os 를 구성함에 있어서 processor - memory 를 연결하는 bus 가 중요하다. 
+
+processor recives instruction data -> update memory -> update pc to execute
+
+setup memory and give the address of the memory to the processor-> automated functions are called
+
+storing information persistently
+
+=====================
+
+technical issues?
+1. portability issue (hardware-dependency)
+-> hard to write a code that works for all computer
+
+2. interoperatability issue
+
+3. scheduling issues
+
+4. recource management issue (efficiency and scalability)
+
+5. safety & security issues
+
+
+===========================
+Approach
+-virtualize a computer system
+ex) for all computer program, giving a virtual computer system solves problem
+provide a consistent and simple view to applications and programmers
+
+-provide common interfaces for an application program to communicate with hardware 
+units and other application programs (for interoperatibility)
+
+underneath the virtualization, we can control the hardware resources
+
+utilizing many virtual computer recourses 
+
+process is a small virtual computer
+
+
+===============================
+pipelining
+
+
+
+
+
+
+
